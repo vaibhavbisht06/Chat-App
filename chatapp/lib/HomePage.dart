@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'ChatScreen.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,6 +9,7 @@ class HomePage extends StatelessWidget {
         elevation: 10.0,
       ),
 
+      body: new ChatScreen(),
     );
   }
 }
