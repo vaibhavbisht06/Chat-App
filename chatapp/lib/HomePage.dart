@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: new Text("Field Connect"),
         elevation: 10.0,
+        toolbarOpacity: 10.0,
       ),
 
       body: new ChatScreen(),
